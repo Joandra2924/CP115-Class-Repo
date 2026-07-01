@@ -4,15 +4,17 @@
         <attribute name="name" value="exercise-1"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-01 11:20:54 AM"/>
+        <attribute name="saved" value="2026-07-01 11:34:22 AM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMDo1MToyMCBBTTsyNzI3"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMToyMDo1NCBBTTsyOzI4NDA="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wMTsxMTozNDoyMiBBTTszOzI4NDE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="Ringgit" type="Integer" array="False" size=""/>
             <input variable="Ringgit"/>
+            <declare name="commission" type="Integer" array="False" size=""/>
+            <input variable="commmission"/>
             <assign variable="commission" expression="Ringgit&#215;0.02"/>
             <assign variable="Baht" expression="Ringgit-commission"/>
             <declare name="Baht" type="Integer" array="False" size=""/>
